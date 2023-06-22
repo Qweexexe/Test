@@ -1,0 +1,145 @@
+body {
+    background: black;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    height: 30px;
+    margin: 10px;
+    padding: 0 20px;
+    border: #ffff;
+    border-radius: 12px;
+}
+
+.search {
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #cccccc;
+}
+
+.button_book{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: #cccccc;
+}
+
+.myorders {
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.orders {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    margin-left: 20px;
+    border: 2px solid black;
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 900px;
+    overflow-y: scroll;
+    color: white;
+    background: #282c34;
+}
+
+.order_list {
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background: steelblue;
+}
+
+
+.order_close {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    top: 0;
+    left: 0;
+    color: white;
+    background: darkred;
+}
+
+
+.moda_seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket {
+    margin: 20px auto;
+    width: 90vw;
+    border: 2px solid #595959;
+    border-radius: 5px;
+    background: #cccccc;
+}
+
+.seat_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background: cadetblue;
+}
+
+.modal_book{
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    background: darkblue;
+}
+
+.modal_close{
+    width: 35px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #fff;
+    background: darkred;
+}
+
+.seat_info {
+
+}
+
+
+.available {
+    background: green;
+}
+
+.unavailable {
+    background: darkred;
+}
